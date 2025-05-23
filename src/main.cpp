@@ -17,13 +17,13 @@ void RunSimulationScenario(const std::string& scenarioName,
 
 int main() {
     // Balanced system (arrival rate = service rate)
-    RunSimulationScenario("Balanced System (iA = sT)", 1.0, 1.0, 5);
+    RunSimulationScenario("Balanced System (λ = μ)", 1.0, 1.0, 5);
     
     // Overloaded system (arrival rate > service rate)
-    RunSimulationScenario("Overloaded System (iA > sT)", 0.5, 1.0, 5);
+    RunSimulationScenario("Overloaded System (λ > μ)", 0.5, 1.0, 5);
     
     // Underloaded system (arrival rate < service rate)
-    RunSimulationScenario("Underloaded System (iA < sT)", 2.0, 1.0, 5);
+    RunSimulationScenario("Underloaded System (λ < μ)", 2.0, 1.0, 5);
     system("pause");
     return 0;
 }
