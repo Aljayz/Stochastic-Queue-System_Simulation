@@ -25,16 +25,16 @@ Key metrics calculated:
 ## File Structure
 ```
 Stochastic-Queue-System-Simulation/
-├── include/ # Header files
-│ ├── Event.h # Event class definition
-│ ├── QueueSimulation.h # Main simulation class
-│ ├── RandomExpoMean.h # Exponential random number generator
-│ └── Server.h # Server structure definition
-├── src/ # Source files
-│ ├── main.cpp # Main program and scenarios
-│ ├── QueueSimulation.cpp # Simulation implementation
-│ └── RandomExpoMean.cpp # Random generator implementation
-└── README.md # This file
+├── include/                   # Header files
+│ ├── Event.h                  # Event class definition
+│ ├── QueueSimulation.h        # Main simulation class
+│ ├── RandomExpoMean.h         # Exponential random number generator
+│ └── Server.h                 # Server structure definition
+├── src/                       # Source files
+│ ├── main.cpp                 # Main program and scenarios
+│ ├── QueueSimulation.cpp      # Simulation implementation
+│ └── RandomExpoMean.cpp       # Random generator implementation
+└── README.md                  # This file
 ```
 
 In the src directory, run this command in terminal:
