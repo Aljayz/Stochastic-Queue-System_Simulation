@@ -11,6 +11,11 @@ This C++ program simulates a queueing system with:
 - Comprehensive statistics collection
 
 The simulation models common queueing scenarios like:
+
+Suppose:
+- λ = Inter-arrival time
+- μ = Service time
+
 - Balanced systems (λ = μ)
 - Overloaded systems (λ > μ)
 - Underloaded systems (λ < μ)
