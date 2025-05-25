@@ -12,9 +12,7 @@ This C++ program simulates a queueing system with:
 
 The simulation models common queueing scenarios like:
 
-Suppose:
-- λ = Inter-arrival time
-- μ = Service time
+Suppose: λ = Inter-arrival time, and μ = Service time
 
 - Balanced systems (λ = μ)
 - Overloaded systems (λ > μ)
